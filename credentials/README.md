@@ -29,17 +29,17 @@ Password: gdsdWiSe2021%
 
 # Steps to Deploy to Cloud
 
-Markup: 1. Create EC2 Instance
-		2. Save security key in an accessible location
-		3. Click on connect in EC2, and go to SSH tab
-		4. Copy Example and paste in xShell
-		5. sudo yum install httpd -y
-		6. cd /var/www/html
-		7. Sudo yum install git
-		8. Git clone
-		9. sudo cp -R * ../
-		10. Sudo service httpd start
-		11. Sudo service https status
+1. Create EC2 Instance
+2. Save security key in an accessible location
+3. Click on connect in EC2, and go to SSH tab
+4. Copy Example and paste in xShell
+5. sudo yum install httpd -y
+6. cd /var/www/html
+7. Sudo yum install git
+8. Git clone
+9. sudo cp -R * ../
+10. Sudo service httpd start
+11. Sudo service https status
 
 
 # Database
