@@ -11,16 +11,22 @@ Colons can be used to align columns.
 | Kritika Murugan | kritika.murugan@informatik.hs-fulda.de | krimuru9336      |
 
 
+
 #AWS
+
 Pem file inside credentials folder
+
 Username: kritika.murugan@informatik.hs-fulda.de
+
 Password: gdsdWiSe2021%
+
 
 #Database
 
 Currently not set up for M0
 
 Database Name: gdsd
-Username: root
-Password: gdsdWiSe2021%
 
+Username: root
+
+Password: gdsdWiSe2021%
