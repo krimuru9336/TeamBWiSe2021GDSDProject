@@ -2,17 +2,15 @@
 A web based platform for students and tutors with similar skills to connect
 
 
-#Team Details
+# Team Details
 
-Colons can be used to align columns.
 
 | Name            | Email                                  | GitHub Username  |
 | --------------- |:--------------------------------------:| ----------------:|
 | Kritika Murugan | kritika.murugan@informatik.hs-fulda.de | krimuru9336      |
 
 
-
-#AWS
+# AWS
 
 Pem file inside credentials folder
 
@@ -21,7 +19,10 @@ Username: kritika.murugan@informatik.hs-fulda.de
 Password: gdsdWiSe2021%
 
 
-#Database
+# Steps to Deploy to Cloud
+
+
+# Database
 
 Currently not set up for M0
 
