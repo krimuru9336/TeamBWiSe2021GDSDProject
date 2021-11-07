@@ -9,3 +9,4 @@
 | --------------- |:--------------------------------------:| ----------------:|
 | Kritika Murugan | kritika.murugan@informatik.hs-fulda.de | krimuru9336      |
 
+| Syed Bukhari | syed.bukhari@informatik.hs-fulda.de | syednaqirazabukh     |
