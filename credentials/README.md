@@ -37,9 +37,10 @@ Password: gdsdWiSe2021%
 6. cd /var/www/html
 7. Sudo yum install git
 8. Git clone
-9. sudo cp -R * ../
-10. Sudo service httpd start
-11. Sudo service https status
+9. cd into the cloned directory
+10. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
+11. Sudo service httpd start
+12. Sudo service https status
 
 
 # Database
