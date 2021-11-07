@@ -2,16 +2,6 @@
 - A web based platform for students and tutors with similar skills to connect
 
 
-# Team Details
-
-
-| Name            | Email                                  | GitHub Username  |
-| --------------- |:--------------------------------------:| ----------------:|
-| Kritika Murugan | kritika.murugan@informatik.hs-fulda.de | krimuru9336      |
-
-| Syed Bukhari | syed.bukhari@informatik.hs-fulda.de | syednaqirazabukh     |
-
-
 # Tracker Details
 
 Please request access to the below link. Only Hochschule IDs will be given access
@@ -19,6 +9,7 @@ https://drive.google.com/drive/folders/1bhf6ACxM9XDMYxOs3zwrxKVrrYHKH32a?usp=sha
 
 You may use this link to create a google ID with your respective Hochschule IDs
 https://smallbusiness.chron.com/create-google-account-company-email-address-28999.html
+
 
 # AWS
 
