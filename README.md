@@ -4,8 +4,8 @@
 
 # Team Details
 
-
-| Name             | Email                                   | GitHub Username |
-| ---------------- |:---------------------------------------:| ---------------:|
-| Kritika Murugan  | kritika.murugan@informatik.hs-fulda.de  | krimuru9336     |
-| Dipesh Chaudhary | dipesh.chaudhary@informatik.hs-fulda.de | dipeshchau      |
+| Name             | Email                                   | GitHub Username  |
+| ---------------- |:---------------------------------------:| ----------------:|
+| Kritika Murugan  | kritika.murugan@informatik.hs-fulda.de  | krimuru9336      |
+| Debarati Ray     | debarati.ray@informatik.hs-fulda.de     | stringmad        |
+| Dipesh Chaudhary | dipesh.chaudhary@informatik.hs-fulda.de | dipeshchau       |
