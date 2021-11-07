@@ -1,0 +1,41 @@
+@font-face {
+  font-family: curvyFont;
+  src: url("Akaya_Kanadaka/AkayaKanadaka-Regular.ttf");
+}
+
+@font-face {
+  font-family: straightFont;
+  src: url("Nunito/Nunito-Light.ttf");
+}
+
+body{
+	font-family: sans-serif;	
+}
+
+h1,h2,h3 {
+	text-align: center;
+	font-family: curvyFont;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+table, tr, td {
+	text-align: center;
+	font-family: straightFont;
+	padding: 15px;
+	font-size: 15px;
+}
+
+img {
+	height: 200px;
+}
