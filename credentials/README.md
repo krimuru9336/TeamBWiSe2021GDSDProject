@@ -2,14 +2,6 @@
 - A web based platform for students and tutors with similar skills to connect
 
 
-# Team Details
-
-
-| Name            | Email                                  | GitHub Username  |
-| --------------- |:--------------------------------------:| ----------------:|
-| Kritika Murugan | kritika.murugan@informatik.hs-fulda.de | krimuru9336      |
-
-
 # Tracker Details
 
 Please request access to the below link. Only Hochschule IDs will be given access
