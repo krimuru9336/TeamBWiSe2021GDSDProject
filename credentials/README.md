@@ -28,12 +28,12 @@ Password: gdsdWiSe2021%
 4. Copy Example and paste in xShell
 5. sudo yum install httpd -y
 6. cd /var/www/html
-7. Sudo yum install git
-8. Git clone
+7. sudo yum install git
+8. sudo git clone
 9. cd into the cloned directory
 10. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
-11. Sudo service httpd start
-12. Sudo service https status
+11. sudo service httpd start
+12. sudo service https status
 
 
 # Database
