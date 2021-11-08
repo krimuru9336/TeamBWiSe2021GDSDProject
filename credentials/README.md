@@ -20,7 +20,7 @@ Username: kritika.murugan@informatik.hs-fulda.de
 Password: gdsdWiSe2021%
 
 
-# Steps to Deploy to Cloud
+# Steps to Deploy to Cloud - cloning from git
 
 1. Create EC2 Instance
 2. Save security key in an accessible location
@@ -31,10 +31,10 @@ Password: gdsdWiSe2021%
 7. sudo yum install git
 8. sudo git clone
 9. cd into the cloned directory
-10. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
-11. sudo service httpd start
-12. sudo service https status
-
+10. sudo git checkout portfolio
+11. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
+12. sudo service httpd start
+13. sudo service https status
 
 # Database
 
