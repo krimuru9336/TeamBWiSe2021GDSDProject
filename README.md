@@ -11,3 +11,4 @@
 | Dipesh Chaudhary |        dipesh.chaudhary@informatik.hs-fulda.de        |       dipeshchau |
 | Syed Bukhari     |          syed.bukhari@informatik.hs-fulda.de          | syednaqirazabukh |
 | Mujeeb Rahman    | mujeeb-rahman.pazhottuvalappil@informatik.hs-fulda.de |   mujeeb11503051 |
+|Abu Sadat Md.Soyam|       abu-sadat.soyam@informatik.hs-fulda.de          |   SoyamHsFulda   |
