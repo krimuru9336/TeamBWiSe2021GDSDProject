@@ -38,11 +38,11 @@ Password: gdsdWiSe2021%
 
 # Database
 
-Currently not set up for M0
+Currently not used for M0
 
 Database Name: gdsd
 
-Username: root
+Username: gdsdadmin
 
 Password: gdsdWiSe2021%
 
@@ -71,3 +71,4 @@ sudo mysql_secure_installation
 
 Say yes to everything
 
+Password: gdsdWiSe2021
