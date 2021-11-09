@@ -38,7 +38,7 @@ Password: gdsdWiSe2021%
 
 # Database
 
-Currently not set up for M0
+Currently not used for M0
 
 Database Name: gdsd
 
