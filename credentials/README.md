@@ -42,6 +42,6 @@ Currently not set up for M0
 
 Database Name: gdsd
 
-Username: root
+Username: gdsdadmin
 
-Password: gdsdWiSe2021%
+Password: gdsdWiSe2021
