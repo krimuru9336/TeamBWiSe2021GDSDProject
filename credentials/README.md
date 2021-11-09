@@ -29,7 +29,7 @@ Password: gdsdWiSe2021%
 5. sudo yum install httpd -y
 6. cd /var/www/html
 7. sudo yum install git
-8. sudo git clone
+8. sudo git clone https://krimuru9336@github.com/krimuru9336/TeamBWiSe2021GDSDProject.git
 9. cd into the cloned directory
 10. sudo git checkout portfolio
 11. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
@@ -45,3 +45,29 @@ Database Name: gdsd
 Username: root
 
 Password: gdsdWiSe2021%
+
+- Install sql in EC2
+sudo  amazon-linux-extras | grep mariadb
+
+sudo tee /etc/yum.repos.d/mariadb.repo<<EOF
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.5/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+EOF
+
+sudo yum makecache 
+
+sudo yum repolist
+
+sudo yum install MariaDB-server MariaDB-client
+
+sudo systemctl enable --now mariadb
+
+systemctl status mariadb
+
+sudo mysql_secure_installation
+
+Say yes to everything
+
