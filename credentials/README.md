@@ -44,7 +44,7 @@ Database Name: gdsd
 
 Username: gdsdadmin
 
-Password: gdsdWiSe2021%
+Password: gdsdWiSe2021
 
 - Install sql in EC2
 sudo  amazon-linux-extras | grep mariadb
@@ -71,4 +71,4 @@ sudo mysql_secure_installation
 
 Say yes to everything
 
-Password: gdsdWiSe2021
+
