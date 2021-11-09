@@ -34,7 +34,7 @@ Password: gdsdWiSe2021%
 10. sudo git checkout portfolio
 11. sudo cp -R * ../   since httpd service looks for index.html inside html folder, we need to bring all files out of the git repo
 12. sudo service httpd start
-13. sudo service https status
+13. sudo service httpd status
 
 # Database
 
