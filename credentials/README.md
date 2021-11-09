@@ -71,4 +71,4 @@ sudo mysql_secure_installation
 
 Say yes to everything
 
-
+Run: mysql -u root -p
