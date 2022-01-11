@@ -1,0 +1,15 @@
+Activities Completed: 
+	Read M3 document - 30 min
+	Backend - Reviews and rating - 1 day
+	GitHub management - 1 day
+	AWS issue - unable to sign in for cloud deployment - 6 hours
+	Research for student account on other cloud service providers - 3 hours
+
+In progress:
+	Filtering based on rating - 5 hours
+	Deployment to cloud - 2 hours
+
+
+Future Tasks:
+	Implement feeback for M3 - 1 hour
+	Deploy to cloud - 1 hour
