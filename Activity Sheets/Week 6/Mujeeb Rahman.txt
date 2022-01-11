@@ -1,0 +1,10 @@
+Activities Completed:
+	Read M3 document - 30 min
+	Developed Chat UI - 6H
+
+In progress:
+	UI Design & Dev - 
+
+Future:
+	More UI Upgrades
+	
