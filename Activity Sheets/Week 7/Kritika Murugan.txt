@@ -1,0 +1,13 @@
+Previous week:
+	Research on new Cloud service providers - 2 hours
+	Creation of account in GCP - 1 hour
+	Research on deployment of code to GCP - 30 min
+	Deploying front end to GCP - 1 hour
+	Deploying backend code to GCP - 2 hours
+	Discussion and coordination of tasks - 30 min
+	Debugging issues - 1 hour
+
+Next week:
+	Work on filtering by rating
+	Discussion on time table 
+	Work on UI designing
