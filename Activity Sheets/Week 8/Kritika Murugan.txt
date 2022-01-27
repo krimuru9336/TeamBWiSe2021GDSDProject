@@ -1,0 +1,21 @@
+Past Week:
+	Backend:
+		Updated API for reviews - 30 min
+	Frontend:
+		Added message for showing demo - 10 min
+	Cloud:
+		Fixed cloud deployment issue - 2 hours
+		Deployment and testing in cloud - 1 hour
+		Fixed git hub issue in server - 15 min
+		Bug fixing and testing - 30 min
+	Management and Documentation Tasks:
+		Team meeting - 3 hours
+		Helping teammates - 1 hour
+		Created Datasheet - 10 min
+		Read M3 and M4 - 15 min
+
+Next week:
+	Work on M4
+	Bug fixes
+	Help with integration of reviews module with frontend
+	Additional tasks on front end
