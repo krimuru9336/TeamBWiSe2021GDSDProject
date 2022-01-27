@@ -1,0 +1,8 @@
+Past Week:
+		Read M3 and M4 - 15 min
+		worked on the field labels for the tutor and student signup
+		worked on the date range
+
+Next week:
+	Work on M4
+	work on the ui design
