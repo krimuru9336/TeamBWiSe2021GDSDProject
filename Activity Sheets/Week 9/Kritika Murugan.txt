@@ -1,0 +1,9 @@
+Completed Tasks:
+	Updated reviews API - 1 hour
+	Fixed bugs with review - 1 hour
+	Deployment in cloud - 30 min
+	Testing in cloud - 10 min
+
+Future tasks:
+	News letter, promotional emails, unsubscribe
+	Bug fix
