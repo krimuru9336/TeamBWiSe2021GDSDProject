@@ -3,6 +3,7 @@ Completed Tasks:
 	Fixed bugs with review - 1 hour
 	Deployment in cloud - 30 min
 	Testing in cloud - 10 min
+	Team meeting and query clarifications - 1.5 hours
 
 Future tasks:
 	News letter, promotional emails, unsubscribe
