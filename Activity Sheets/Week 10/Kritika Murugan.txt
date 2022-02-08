@@ -1,0 +1,7 @@
+Completed Tasks:
+	Learnt react
+	Started with chatbot functionality
+
+Future tasks:
+	Work on timetable front end
+	Finish rasa model for chatbot
