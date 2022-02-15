@@ -1,0 +1,9 @@
+Previous tasks:
+	Deployement of code in cloud - 20 min
+	Testing - 5 min
+	Data creation - 5 min
+	Chatbot model creation - 30 min
+
+Future tasks:
+	Timetable frontend 
+	Chatbot
