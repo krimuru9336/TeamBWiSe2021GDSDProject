@@ -1,0 +1,181 @@
+Backend
+
+
+sudo yum update -y
+sudo yum groupinstall "Development Tools" -y
+sudo yum install openssl-devel libffi-devel bzip2-devel -y
+sudo yum install zlib-devel
+sudo yum install libjpeg-devel -y
+sudo yum install gcc
+sudo yum install wget -y
+sudo wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
+tar xvf Python-3.10.0.tgz
+cd Python-3.10.0
+./configure --enable-optimizations
+sudo make altinstall
+sudo yum install python3-pip -y
+cd ..
+sudo pip3 install django djangorestframework django-cors-headers djangorestframework-jwt djangorestframework_simplejwt pymysql django-extensions
+sudo python3 -m pip install Pillow
+sudo pip3 install Pillow==8.0.0
+sudo python3 -m pip install setuptools
+sudo python3 -m pip install setuptools_rust
+sudo  pip3 install --upgrade pip
+sudo python3 -m pip install -U channels
+sudo pip3 install channels-redis==2.4.2
+sudo yum install git -y
+sudo git clone https://github.com/krimuru9336/GDSDBackend.git
+cd GDSDBackend
+sudo chown -R $USER /
+cd fuldemy
+rm db.sqlite3
+cd AllUsers/migrations/
+rm 0001_initial.py
+
+cd ..
+cd ..
+
+pip install Django==2.1.*
+python3 manage.py makemigrations AllUsers
+python3 manage.py migrate AllUsers
+python3 manage.py makemigrations 
+python3 manage.py migrate 
+
+python3 manage.py shell
+
+from AllUsers.models import Skills
+from AllUsers.models import FuldemyUser
+from AllUsers.models import TimeTable
+
+a1=Skills(skill_name="Cloud", skill_type="Science")
+
+a1.save()
+a2=Skills(skill_name="Data Science", skill_type="Computer Science")
+a2.save()
+
+a3=Skills(skill_name="Operation Research", skill_type="Computer Science")
+a3.save()
+
+a3=Skills(skill_name="Machine Learning", skill_type="Computer Science")
+a3.save()
+
+
+a3=Skills(skill_name="Bigdata", skill_type="Computer Science")
+a3.save()
+
+a3=Skills(skill_name="Distributed Applications", skill_type="Computer Science")
+a3.save()
+
+a4=TimeTable(day="SUNDAY")
+a4.save()
+a4=TimeTable(day="MONDAY")
+a4.save()
+a4=TimeTable(day="TUESDAY")
+a4.save()
+a4=TimeTable(day="WEDNESDAY")
+a4.save()
+a4=TimeTable(day="THURSDAY")
+a4.save()
+a4=TimeTable(day="FRIDAY")
+a4.save()
+a4=TimeTable(day="SATURDAY")
+a4.save()
+
+exit()
+
+
+
+python3 manage.py createsuperuser
+
+krisuper@hs-fulda.de
+krisuper
+Kri
+Super
+1997-10-10
+
+
+python3 manage.py runserver 0.0.0.0:8000
+
+
+
+rm 0002_messagemodel.py 
+rm 0003_auto_20220122_1829.py
+rm 0004_auto_20220122_2304.py
+rm 0005_auto_20220122_2305.py 
+
+
+
+
+---------------------------------------------------------------
+
+Frontend
+
+sudo yum update -y
+sudo yum install git -y
+sudo git clone https://github.com/krimuru9336/GDSDFrontEnd.git
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install node
+cd GDSDFrontEnd
+sudo chown -R $USER /
+npm install
+export NODE_OPTIONS=--openssl-legacy-provider
+npm start --host 0.0.0.0 --disable-host-check
+
+
+--------------------------------------------------------------
+
+Chatbot
+
+sudo yum update -y
+sudo yum groupinstall "Development Tools" -y
+sudo yum install openssl-devel libffi-devel bzip2-devel -y
+sudo yum install zlib-devel
+sudo yum install libjpeg-devel -y
+sudo yum install gcc
+sudo yum install wget -y
+sudo wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
+tar xvf Python-3.10.0.tgz
+cd Python-3.10.0
+./configure --enable-optimizations
+sudo make altinstall
+sudo yum install python3-pip -y
+cd ..
+python3 -m venv python3-virtualenv
+
+pip3 freeze
+asn1crypto==0.24.0
+cffi==1.11.5
+configobj==5.0.6
+cryptography==2.3
+decorator==4.2.1
+gpg==1.10.0
+idna==2.5
+iniparse==0.4
+netifaces==0.10.6
+pciutils==2.3.6
+perf==0.1
+ply==3.9
+pycparser==2.14
+pygobject==3.28.3
+pyOpenSSL==18.0.0
+python-dateutil==2.6.1
+python-dmidecode==3.12.2
+python-linux-procfs==0.6
+pyudev==0.21.0
+rhnlib==2.8.6
+rpm==4.14.2
+schedutils==0.6
+six==1.11.0
+slip==0.6.4
+slip.dbus==0.6.4
+syspurpose==1.23.8
+
+source python3-virtualenv/bin/activate
+
+pip install --upgrade pip
+pip install rasa
+
+sudo yum install git -y
+
+rasa run -m models --enable-api --cors “*” --debug

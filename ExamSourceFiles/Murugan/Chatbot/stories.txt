@@ -1,0 +1,57 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_how_help
+
+- story: salary affirm
+  steps:
+  - intent: salary
+  - action: utter_salary
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_how_help
+
+- story: salary deny
+  steps:
+  - intent: salary
+  - action: utter_salary
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: connection deny
+  steps:
+  - intent: connection_with_tutor
+  - action: utter_connection_with_tutor
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: connection affirm
+  steps:
+  - intent: connection_with_tutor
+  - action: utter_connection_with_tutor
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_how_help
+
+- story: mode affirm
+  steps:
+  - intent: mode_of_teaching
+  - action: utter_mode_of_teaching
+  - action: utter_anything_else
+  - intent: affirm
+  - action: utter_how_help
+
+- story: mode deny
+  steps:
+  - intent: mode_of_teaching
+  - action: utter_mode_of_teaching
+  - action: utter_anything_else
+  - intent: deny
+  - action: utter_goodbye
