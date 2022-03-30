@@ -1,0 +1,41 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - salary
+  - connection_with_tutor
+  - mode_of_teaching
+
+responses:
+  utter_greet:
+  - text: "Servus! Wie gehts?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_anything_else:
+  - text: "Is there anything else that I can help you with?"
+
+  utter_how_help:
+  - text: "How can I help you?"
+
+  utter_salary:
+  - text: "The tutor decides the salary based on their skills on the market"
+
+  utter_connection_with_tutor:
+  - text: "Connection is done based on skill, the student can first view a tutor's profile and time table and decide what works best for them"
+
+  utter_mode_of_teaching:
+  - text: "The tutor communicates the mode of teaching based over the chat functionality on the portal based on the local covid rules and regulations as well as the convenience of the tutors"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
