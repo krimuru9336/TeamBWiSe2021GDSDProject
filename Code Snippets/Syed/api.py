@@ -1,6 +1,5 @@
 from django.db.models import Q
 from django.shortcuts import get_object_or_404
-from django.contrib.auth.models import User
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
@@ -9,7 +8,6 @@ from rest_framework.authentication import SessionAuthentication
 from fuldemy import settings
 from .serializers import MessageModelSerializer, UserModelSerializer
 from .models import FuldemyUser, MessageModel
-from rest_framework import permissions
 from rest_framework.permissions import IsAuthenticated
 
 class CsrfExemptSessionAuthentication(SessionAuthentication):
